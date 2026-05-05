@@ -117,14 +117,3 @@ This artifact is eligible for the "Functional" badge because:
    - Build upon the findings with new research
 
 ---
-
-## Checklist Before Submission
-
-- [ ] Repository is publicly available at GitHub
-- [ ] Repository has been archived to Zenodo with DOI
-- [ ] LICENSE file is in repository root
-- [ ] README file is in repository root with all required sections
-- [ ] Camera-ready paper includes "Artifact Availability" section after Conclusion
-- [ ] "Artifact Availability" section contains correct DOI link to Zenodo
-- [ ] JEMS submission includes both badge justifications
-- [ ] PDF of camera-ready paper uploaded to JEMS
