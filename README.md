@@ -31,10 +31,7 @@ This repository is prepared for submission to the **CBSoft 2026 Artifact Festiva
 **� Quick Start:** See [QUICK-START.md](QUICK-START.md) for a simple 3-step submission process
 
 **📋 Submission Resources:**
-- **[QUICK-START.md](QUICK-START.md)**: 🌟 **START HERE** - Simple 3-step process for artifact submission
 - **[ARTIFACT-AVAILABILITY.md](ARTIFACT-AVAILABILITY.md)**: Template text for the "Artifact Availability" section to include in your camera-ready paper, plus badge justifications for JEMS submission
-- **[SUBMISSION-CHECKLIST.md](SUBMISSION-CHECKLIST.md)**: Complete step-by-step checklist for preparing and submitting to the Artifact Festival
-- **[ZENODO-GUIDE.md](ZENODO-GUIDE.md)**: Detailed instructions for archiving to Zenodo and obtaining a DOI
 
 **⚠️ Important:** Before submitting your camera-ready paper, archive this repository to Zenodo to obtain a DOI, then update the DOI in both your paper and this README.
 
