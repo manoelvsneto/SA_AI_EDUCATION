@@ -28,10 +28,14 @@ This repository is prepared for submission to the **CBSoft 2026 Artifact Festiva
 - ✅ Complete dataset with all components for full understanding
 - ✅ Usable by other researchers (plain text Markdown format, no special software required)
 
-**� Quick Start:** See [QUICK-START.md](QUICK-START.md) for a simple 3-step submission process
+
+**� Quick Start:** See [artifacts/QUICK-START.md](artifacts/QUICK-START.md) for a simple 3-step submission process
 
 **📋 Submission Resources:**
-- **[ARTIFACT-AVAILABILITY.md](ARTIFACT-AVAILABILITY.md)**: Template text for the "Artifact Availability" section to include in your camera-ready paper, plus badge justifications for JEMS submission
+- **[artifacts/QUICK-START.md](artifacts/QUICK-START.md)**: 🌟 **START HERE** - Simple 3-step process for artifact submission
+- **[artifacts/ARTIFACT-AVAILABILITY.md](artifacts/ARTIFACT-AVAILABILITY.md)**: Template text for the "Artifact Availability" section to include in your camera-ready paper, plus badge justifications for JEMS submission
+- **[artifacts/SUBMISSION-CHECKLIST.md](artifacts/SUBMISSION-CHECKLIST.md)**: Complete step-by-step checklist for preparing and submitting to the Artifact Festival
+- **[artifacts/ZENODO-GUIDE.md](artifacts/ZENODO-GUIDE.md)**: Detailed instructions for archiving to Zenodo and obtaining a DOI
 
 **⚠️ Important:** Before submitting your camera-ready paper, archive this repository to Zenodo to obtain a DOI, then update the DOI in both your paper and this README.
 
@@ -64,25 +68,24 @@ As long as you provide **appropriate attribution** to the original authors.
 In compliance with SBES 2026 Open Science Policies, this repository provides complete access to all research artifacts:
 
 ### Primary Data Artifacts
-- **Raw Data** ([data.md](data.md)): Complete anonymized survey responses from 57 students
-- **Codebook** ([table-coding-table.md](table-coding-table.md)): Thematic coding scheme with 18 codes
-- **Methodology** ([method-flow.md](method-flow.md)): Visual representation of research process
+- **Raw Data** ([artifacts/data.md](artifacts/data.md)): Complete anonymized survey responses from 57 students
+- **Codebook** ([artifacts/table-coding-table.md](artifacts/table-coding-table.md)): Thematic coding scheme with 18 codes
 
 ### Analysis Artifacts
 - **Thematic Networks** (3 files): Visual analysis with Mermaid diagrams + evidence
-  - [rq1-network.md](rq1-network.md): AI integration themes (6 codes, 177 coded segments)
-  - [rq2-network.md](rq2-network.md): Modeling themes (6 codes, 239 coded segments)
-  - [rq3-network.md](rq3-network.md): Learning themes (6 codes, 285 coded segments)
+  - [artifacts/rq1-network.md](artifacts/rq1-network.md): AI integration themes (6 codes, 177 coded segments)
+  - [artifacts/rq2-network.md](artifacts/rq2-network.md): Modeling themes (6 codes, 239 coded segments)
+  - [artifacts/rq3-network.md](artifacts/rq3-network.md): Learning themes (6 codes, 285 coded segments)
 - **Frequency Tables** (3 files): Quantitative analysis results
-  - [table-rq1-results.md](table-rq1-results.md): RQ1 theme frequencies
-  - [table-rq2-results.md](table-rq2-results.md): RQ2 theme frequencies
-  - [table-rq3-results.md](table-rq3-results.md): RQ3 theme frequencies
+  - [artifacts/table-rq1-results.md](artifacts/table-rq1-results.md): RQ1 theme frequencies
+  - [artifacts/table-rq2-results.md](artifacts/table-rq2-results.md): RQ2 theme frequencies
+  - [artifacts/table-rq3-results.md](artifacts/table-rq3-results.md): RQ3 theme frequencies
 
 ### Supporting Documentation
-- **Educational Context** ([table-course-outline.md](table-course-outline.md)): Course structure and pedagogy
-- **Research Questions** ([table-rq-questions.md](table-rq-questions.md)): RQ mapping to survey questions
-- **Gap Analysis** ([table-rq3-gaps.md](table-rq3-gaps.md)): Identified curricular gaps
-- **Interventions** ([table-interventions.md](table-interventions.md)): Proposed pedagogical improvements
+- **Educational Context** ([artifacts/table-course-outline.md](artifacts/table-course-outline.md)): Course structure and pedagogy
+- **Research Questions** ([artifacts/table-rq-questions.md](artifacts/table-rq-questions.md)): RQ mapping to survey questions
+- **Gap Analysis** ([artifacts/table-rq3-gaps.md](artifacts/table-rq3-gaps.md)): Identified curricular gaps
+- **Interventions** ([artifacts/table-interventions.md](artifacts/table-interventions.md)): Proposed pedagogical improvements
 
 ### Artifact Status
 - **Availability**: Public, no registration required
@@ -244,28 +247,28 @@ All table files use markdown format with clear headers and consistent structure 
 **Architectural Patterns**: Microservices, Serverless, BFF, API Gateway, Event-Driven, Clean Architecture, Vertical Slice  
 **Analysis**: Thematic coding with 18 codes across 3 research questions
 
-## 📂 File Organization
+## 📂 Repository Structure
 
 ```
-├── ARTIFACT-AVAILABILITY.md     # Template for paper's Artifact Availability section
 ├── LICENSE.md                   # CC BY 4.0 license details
-├── QUICK-START.md               # 🌟 Simple 3-step submission guide
-├── README.md                    # This file (artifact guide)
-├── SUBMISSION-CHECKLIST.md      # Step-by-step submission checklist
-├── ZENODO-GUIDE.md              # How to archive to Zenodo and get DOI
-├── data.md                      # Raw survey data (N=57)
-├── method-flow.md               # Research methodology diagram
-├── rq1-network.md               # AI integration themes + evidence
-├── rq2-network.md               # Modeling themes + evidence
-├── rq3-network.md               # Learning themes + evidence
-├── table-coding-table.md        # Thematic codebook (18 codes)
-├── table-course-outline.md      # Educational context
-├── table-rq-questions.md        # Research question mapping
-├── table-rq1-results.md         # RQ1 frequency analysis
-├── table-rq2-results.md         # RQ2 frequency analysis
-├── table-rq3-results.md         # RQ3 frequency analysis
-├── table-rq3-gaps.md            # Curricular gaps analysis
-└── table-interventions.md       # Proposed interventions
+├── README.md                    # This file (comprehensive guide)
+└── artifacts/                   # All research artifacts
+    ├── ARTIFACT-AVAILABILITY.md # Template for paper's Artifact Availability section
+    ├── QUICK-START.md          # 🌟 Simple 3-step submission guide
+    ├── SUBMISSION-CHECKLIST.md # Step-by-step submission checklist
+    ├── ZENODO-GUIDE.md         # How to archive to Zenodo and get DOI
+    ├── data.md                 # Raw survey data (N=57)
+    ├── rq1-network.md          # AI integration themes + evidence
+    ├── rq2-network.md          # Modeling themes + evidence
+    ├── rq3-network.md          # Learning themes + evidence
+    ├── table-coding-table.md   # Thematic codebook (18 codes)
+    ├── table-course-outline.md # Educational context
+    ├── table-rq-questions.md   # Research question mapping
+    ├── table-rq1-results.md    # RQ1 frequency analysis
+    ├── table-rq2-results.md    # RQ2 frequency analysis
+    ├── table-rq3-results.md    # RQ3 frequency analysis
+    ├── table-rq3-gaps.md       # Curricular gaps analysis
+    └── table-interventions.md  # Proposed interventions
 ```
 
 All files are in English (translated from original Language survey data) and ready for academic publication.
@@ -339,7 +342,7 @@ For questions about the data, methodology, or artifacts:
 - **CC BY 4.0 License**: https://creativecommons.org/licenses/by/4.0/
 - **Zenodo**: https://zenodo.org (for permanent archival)
 - **Open Science Framework**: https://osf.io (alternative archival platform)
-- **Zenodo Archival Guide**: See [ZENODO-GUIDE.md](ZENODO-GUIDE.md) for detailed instructions
+- **Zenodo Archival Guide**: See [artifacts/ZENODO-GUIDE.md](artifacts/ZENODO-GUIDE.md) for detailed instructions
 
 ---
 
