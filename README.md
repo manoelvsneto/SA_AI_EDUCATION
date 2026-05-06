@@ -32,10 +32,7 @@ This repository is prepared for submission to the **CBSoft 2026 Artifact Festiva
 **� Quick Start:** See [artifacts/QUICK-START.md](artifacts/QUICK-START.md) for a simple 3-step submission process
 
 **📋 Submission Resources:**
-- **[artifacts/QUICK-START.md](artifacts/QUICK-START.md)**: 🌟 **START HERE** - Simple 3-step process for artifact submission
 - **[artifacts/ARTIFACT-AVAILABILITY.md](artifacts/ARTIFACT-AVAILABILITY.md)**: Template text for the "Artifact Availability" section to include in your camera-ready paper, plus badge justifications for JEMS submission
-- **[artifacts/SUBMISSION-CHECKLIST.md](artifacts/SUBMISSION-CHECKLIST.md)**: Complete step-by-step checklist for preparing and submitting to the Artifact Festival
-- **[artifacts/ZENODO-GUIDE.md](artifacts/ZENODO-GUIDE.md)**: Detailed instructions for archiving to Zenodo and obtaining a DOI
 
 **⚠️ Important:** Before submitting your camera-ready paper, archive this repository to Zenodo to obtain a DOI, then update the DOI in both your paper and this README.
 
@@ -253,10 +250,6 @@ All table files use markdown format with clear headers and consistent structure 
 ├── LICENSE.md                   # CC BY 4.0 license details
 ├── README.md                    # This file (comprehensive guide)
 └── artifacts/                   # All research artifacts
-    ├── ARTIFACT-AVAILABILITY.md # Template for paper's Artifact Availability section
-    ├── QUICK-START.md          # 🌟 Simple 3-step submission guide
-    ├── SUBMISSION-CHECKLIST.md # Step-by-step submission checklist
-    ├── ZENODO-GUIDE.md         # How to archive to Zenodo and get DOI
     ├── data.md                 # Raw survey data (N=57)
     ├── rq1-network.md          # AI integration themes + evidence
     ├── rq2-network.md          # Modeling themes + evidence
