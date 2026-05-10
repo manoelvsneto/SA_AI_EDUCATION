@@ -1,7 +1,5 @@
 # Thematic Network RQ2
 
-**Architectural modeling as support for understanding and communicating decisions in solutions with AI and cloud**
-
 Edge labels indicate frequency (n/N=57).
 
 ```mermaid
