@@ -1,7 +1,5 @@
 # Thematic Network RQ1
 
-**Students' perceptions of AI integration in cloud solution architectures**
-
 Edge labels indicate frequency (n/N=57).
 
 ```mermaid
