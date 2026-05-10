@@ -1,7 +1,5 @@
 # Thematic Network RQ3
 
-**Contributions to learning and indications of curricular gaps**
-
 Edge labels indicate frequency (n/N=57).
 
 ```mermaid
