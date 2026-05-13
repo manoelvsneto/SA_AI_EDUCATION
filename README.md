@@ -4,7 +4,7 @@ Repository containing research data and documentation about AI integration in So
 
 ## � Associated Paper
 
-**Title:** An Educational Experience on Teaching Software Architecture for AI-Enabled Cloud-Native Systems  
+**Title:** AI as an Architectural Concern in Software Architecture Education: An Exploratory Study with Students 
 **Venue:** 39th Brazilian Symposium on Software Engineering (SBES 2026)  
 **Paper PDF:** [To be added after camera-ready submission]  
 **Artifact Festival:** This repository is submitted to the CBSoft 2026 Artifact Festival
@@ -273,7 +273,7 @@ If you use this data or artifacts in your research, please cite:
 ```bibtex
 @inproceedings{sa_ai_education_2026,
   author    = {[Author(s)]},
-  title     = {An Educational Experience on Teaching Software Architecture for AI-Enabled Cloud-Native Systems},
+  title     = {AI as an Architectural Concern in Software Architecture Education: An Exploratory Study with Students},
   booktitle = {Proceedings of the 39th Brazilian Symposium on Software Engineering},
   series    = {SBES 2026},
   year      = {2026},
